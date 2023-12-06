@@ -1,0 +1,11 @@
+ --logtitle Regression Test Log
+ --reporttitle Regression Test Report
+ --timestampoutputs
+ -e exclude
+ -e excTW
+ -l regression-test-log.html
+ -x regression-junit-report.xml
+ -d .\Trial Result\Regression
+ -i Regression
+ #--listener RetryFailed:2
+ .\Test Scripts

@@ -1,0 +1,19 @@
+host: https://forestinteractive.testrail.io/
+project: WalletCodes - Frontend [Automation]
+username: erika.diaz@wallet-codes.com
+key: WLGN.Aa5bmT4SZ0CqZsc-2QJLB1WOg6GDkwzxpFNI
+file: ./Trial Result/Flaky Test/flaky-junit-report.xml
+title: Flaky Test
+timeout: 5.5
+milestone_id: 41
+run_id: 315 
+#run_id: 305
+auto_creation_response: false
+
+
+# config: ./Config/config-trialRun.yml
+# batch_size: 20
+# case_fields: 
+#     type_id: 1,
+#     priority_id: 3
+#     custom_field_id: [2, 4]

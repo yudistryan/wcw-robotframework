@@ -1,2 +1,1 @@
-# wcw-robotframework
-Former Wallet Codes website automation test using Robot Framework
+Repository for automation test script of Wallet Codes Front End.

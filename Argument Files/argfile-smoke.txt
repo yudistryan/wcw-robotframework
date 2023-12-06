@@ -1,0 +1,7 @@
+ --timestampoutputs
+ -l smoke-test-log.html
+ -x smoke-junit-report.xml
+ -d .\Test Result\Smoke
+ -i Smoke
+ --listener RetryFailed:3
+ .\Test Scripts\*

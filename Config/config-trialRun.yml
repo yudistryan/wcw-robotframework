@@ -1,0 +1,22 @@
+host: https://forestinteractive.testrail.io/
+project: WalletCodes - Frontend [Automation]
+username: erika.diaz@wallet-codes.com
+key: WLGN.Aa5bmT4SZ0CqZsc-2QJLB1WOg6GDkwzxpFNI
+# file: .\Trial Result\Demo\Staging Full Test\27 Nove\merged-report.xml
+file: .\Trial Result\junit-report.xml
+# title: Staging Regression Test Website 2.0
+title: Trial Test Run
+timeout: 5.5
+# milestone_id: 36
+# run_id: 361
+run_id: 305
+# config: ./Config/config-trialRun.yml
+auto_creation_response: false
+# close_run: true
+
+
+# batch_size: 20
+# case_fields: 
+#     type_id: 1,
+#     priority_id: 3
+#     custom_field_id: [2, 4]

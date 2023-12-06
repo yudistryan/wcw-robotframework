@@ -1,0 +1,17 @@
+host: https://forestinteractive.testrail.io/
+project: WalletCodes - Frontend [Automation]
+username: erika.diaz@wallet-codes.com
+key: WLGN.Aa5bmT4SZ0CqZsc-2QJLB1WOg6GDkwzxpFNI
+file: ./Test Result/junit-report.xml
+title: {test run title}
+timeout: 5.5
+run_id: {test run id}
+config: ./Config/config.yml
+auto_creation_response: false
+
+
+# batch_size: 20
+# case_fields: 
+#     type_id: 1,
+#     priority_id: 3
+#     custom_field_id: [2, 4]

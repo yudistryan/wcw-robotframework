@@ -1,0 +1,16 @@
+ --logtitle Retest Test Log
+ --reporttitle Retest Test Report
+ -l retest-log.html
+ -x junit-retest-report.xml
+ -o retest.xml
+ --loglevel TRACE
+ #--test C10149*
+ -i Retest
+ #-i Exclude
+ -e Exclude
+ -d .\Trial Result
+ # -d C:\Test Script\Staging\Wallet Codes Front End\Test Result\
+ #--listener RetryFailed:3
+ #--timestampoutputs
+ --variable global_env:Staging TW
+ .\Test Scripts

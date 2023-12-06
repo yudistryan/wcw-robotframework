@@ -1,0 +1,7 @@
+ --timestampoutputs
+ -l sanity-test-log.html
+ -x sanity-junit-report.xml
+ -d .\Test Result\Sanity
+ -i Sanity
+ --listener RetryFailed:3
+ .\Test Scripts\*

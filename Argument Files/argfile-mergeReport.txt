@@ -1,0 +1,7 @@
+ --merge
+ -l merged-log.html
+ -x merged-report.xml
+ -o merged-output.xml
+ -d .\Trial Result
+ .\Trial Result\output.xml
+ .\Trial Result\rerun.xml

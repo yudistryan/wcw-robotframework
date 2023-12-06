@@ -1,0 +1,18 @@
+ --logtitle Rerun Test Log
+ --reporttitle Rerun Test Report
+ -l rerun-log.html
+ -x junit-rerun.xml
+ -o output-rerun.xml
+ #--loglevel TRACE
+ #--test C9968*
+ #-i Sanity
+ -e Exclude
+ -d .\Trial Result
+ # -d C:\Test Script\Staging\Wallet Codes Front End\Test Result\
+ --rerunfailed
+ .\Trial Result\output.xml
+ --output rerun.xml
+ #--listener RetryFailed:3
+ #--timestampoutputs
+ --variable global_env:Staging TW
+ .\Test Scripts
